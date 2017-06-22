@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+    <style>
+
+        body{
+            font-size:20px;
+        }
+
+        section {
+            margin-bottom: 8.3%;
+        }
+
+        #main {
+            min-height:100vh;
+            width:100%;
+            background:  url("main.png") no-repeat;
+            background-repeat:no-repeat;
+            -webkit-background-size:cover;
+            -moz-background-size:cover;
+            -o-background-size:cover;
+            background-size:cover;
+            background-position:center;
+
+        }
+
+        #features img{
+            width: 100%;
+            height: 100%;
+        }
+
+        #features ul{
+            list-style-type: none;
+            text-transform: uppercase;
+            padding:0;
+            height:100%;
+            font-size:5vh;
+
+
+        }
+        #features li span{
+
+            margin:0 3%;
+            font-size:180%;
+        }
+
+        #join{
+            text-transform: uppercase;
+          /*  text-align:center;*/
+
+        }
+
+        #phone span{
+            float:right;
+            padding:3% 5%;
+            width:100%;
+        }
+
+        footer{
+            background-color:black;
+            color:white;
+            margin-left:33%;
+        }
+
+        footer p {
+            text-align:right;
+            margin:0 10%;
+            padding:4% 0;
+
+        }
+
+
+        /* Responsive Styles Large Desktop And Above */
+        @media all and (min-width: 1405px) {
+        }
+        /* Responsive Styles Smartphone Portrait */
+        @media all and (max-width: 479px) {
+        }
+        /* Responsive Styles Smartphone Only */
+        @media all and (max-width: 767px) {
+
+            #main{
+                background-image: url("main-mobile.png");
+            }
+            .wrap {
+                width:80%;
+                margin:auto;
+            }
+
+            footer {
+                margin-left:10%;
+            }
+
+
+        }
+        /* Responsive Styles Tablet Only */
+        @media all and (min-width: 768px) and (max-width: 980px) {
+        }
+        /* Responsive Styles Tablet And Below */
+        @media all and (max-width: 980px) {
+
+
+        }
+        /* Responsive Styles 981px – 1100px */
+        @media all and (min-width: 981px) and (max-width: 1100px) {
+        }
+        /* Responsive Styles Desktop Only */
+        @media all and (min-width: 981px) {
+            .wrap {
+                width: 100%;
+            }
+        }
+        /* Responsive Styles Standard Desktop Only */
+        @media all and (min-width: 981px) and (max-width: 1405px) {
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <section id="main"></section>
+
+    <div class="wrap">
+
+        <section id="features">
+            <div class="row no-gutters">
+                <div class="col-12 col-sm-6 col-md-6 hidden-sm-down">  <img src="restaurant.png"></div>
+                <div class="col-6 col-md-3 offset-md-1"><img src="features.png"></div>
+            </div>
+        </section>
+
+        <section id="join" >
+            <div class="col-12 offset-2">
+                <span class="text-nowrap">Dołącz do zespołu</span> i <span class="text-nowrap">pracuj w sercu orłowa</span>
+            </div>
+            <div class="clearfix"></div>
+
+        </section>
+
+    </div>
+
+    <footer>
+        <p>+48 666 853 257</p>
+    </footer>
+
+
+</body>
+</html>

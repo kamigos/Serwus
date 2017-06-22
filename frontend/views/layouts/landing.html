@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <style>
+
+        body{
+            font-size:20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+            width:100%;
+        }
+
+        #main {
+            height:100vh;
+        }
+        #main img {
+            width: 100%;
+            height:100%;
+        }
+
+        #features{
+            display:flex;
+        }
+        #features img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .text {
+            border:2px solid black;
+        }
+
+        #features ul{
+            list-style-type: none;
+            text-transform: uppercase;
+            padding:0;
+            height:100%;
+            font-size:5vh;
+
+
+        }
+        #features li span{
+
+            margin:0 3%;
+            font-size:180%;
+        }
+
+        #join{
+            text-transform: uppercase;
+            font-size:2em;
+            text-align:center;
+
+        }
+
+        #phone{
+
+            background-color:black;
+            color:white;
+        }
+
+        #phone span{
+            float:right;
+            padding:3% 5%;
+        }
+
+        .no-padding {
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+        }
+
+        @media (min-width: 992px){
+            .container {
+                width: 100%;
+                padding:0;
+            }
+
+
+        }
+
+        @media (max-width: 992px){
+            #features div {
+                margin: 0 auto;
+                width:100%;
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <section id="main">
+        <img src="main.png"  alt="serwus-restaurant-orłowo">
+    </section>
+
+    <section id="features">
+
+
+        <div class="col-md-6 no-padding  hidden-sm">
+            <img src="restaurant.png">
+        </div>
+        <div class="col-md-3 col-md-offset-1 no-padding">
+            <img src="features.png">
+            <!---
+            <ul>
+                <li>
+                    Pyszne<span>śniadanie</span>
+                </li>
+                <li><span>kawa</span>prawdziwa</li>
+                <li>świeże<span>pieczywo</span></li>
+                <li><span>lunch</span>zdrowy</li>
+                <li>kraftowe<span>piwo</span></li>
+                <li><span>kolacja</span>i wino</li>
+            </ul>
+            --->
+
+        </div>
+    </section>
+
+    <section id="join">
+        <div class="col-md-7 col-md-offset-2">
+            <span class="text-nowrap">Dołącz do zespołu</span> i <span class="text-nowrap">pracuj w sercu orłowa</span>
+        </div>
+        <div class="clearfix"></div>
+
+    </section>
+
+
+
+    <footer>
+        <div id="phone" class="col-sm-12 col-md-6 col-md-offset-4">
+                <span>+48 666 853 257</span>
+        </div>
+        <div class="clearfix"></div>
+    </footer>
+
+</body>
+</html>

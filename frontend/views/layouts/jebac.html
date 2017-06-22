@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+    <style>
+
+        body{
+            text-transform: uppercase;
+            font-size:30px;
+            margin:0;
+            padding:0;
+            font-family: 'Oswald', sans-serif;
+        }
+        section{
+            margin:10%;
+        }
+        #main {
+            margin:0;
+        }
+        #main img{
+            width:100%;
+            height:100vh;
+        }
+
+        .image_full{
+            display:none;
+        }
+
+        .image_mobile{
+            display:block;
+        }
+
+        #restaurant{
+            display:none;
+        }
+        #features{
+            margin:auto;
+        }
+        #about img{
+            width:100%;
+            height:100%;
+        }
+
+
+        footer {
+            background-color:black;
+            color:white;
+            margin-left:10%;
+            width:90%;
+        }
+        footer p{
+            margin: 0 10%;
+            text-align:right;
+            padding:3% 0 3%;
+
+        }
+
+        /* Medium devices (desktops, 992px and up) */
+        @media (min-width: 700px) {
+            .image_full {
+                display:block;
+            }
+
+            .image_mobile{
+                display:none;
+            }
+
+            section{
+                margin:10% 0;
+            }
+
+            #about{
+                display:flex;
+            }
+            #restaurant{
+                display:block;
+                width:50%;
+                height:100%;
+            }
+            #features{
+                height:100%;
+                width:25%;
+                margin-left:8.33%;
+            }
+
+            #join{
+                margin-left:16.66%;
+            }
+
+            footer{
+                margin-left: 33.33%;
+                width:50%;
+            }
+
+        }
+
+        /* Medium devices (desktops, 992px and up) */
+        @media (min-width: 992px) {
+
+        }
+
+        /* Large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {  }
+
+
+    </style>
+
+</head>
+<body>
+
+
+
+<section id="main">
+    <img src="main.png" class="image_full">
+    <img src="main-mobile.png"  class="image_mobile">
+</section>
+
+
+    <section id="about">
+            <div id="restaurant">  <img src="restaurant.png"></div>
+            <div id="features" ><img src="features.png"></div>
+    </section>
+
+    <section id="join" >
+        <div class="text-center">
+            <span class="text-nowrap">Dołącz do zespołu</span> i <span class="text-nowrap">pracuj w sercu orłowa</span>
+        </div>
+    </section>
+
+
+<footer>
+    <p>+48 666 853 257</p>
+</footer>
+
+
+</body>
+</html>
