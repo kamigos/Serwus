@@ -21,6 +21,9 @@ return [
             'migrationNamespaces' => [
                 'lajax\translatemanager\migrations\namespaced',
             ],
+
         ],
     ],
+
+
 ];
